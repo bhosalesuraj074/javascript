@@ -27,11 +27,11 @@ function swap(var1,var2)
 // 
 function addThreeValues(val1,val2,val3)
 {
-    return val1+val1+val3;
+    return val1+val2+val3;
 }
 
 
-//  function calls
+//  functions calls
 console.log("--------------------------------------------------");
 myName();
 console.log("--------------------------------------------------");
@@ -42,5 +42,5 @@ console.log("--------------------------------------------------");
 swap("virat","anushka");
 swap(1000,2000);
 console.log("--------------------------------------------------");
-console.log(10.23,600,40);
-console.log("Hello","Good", "Morning");
+console.log(addThreeValues(10.23,600,40));
+console.log(addThreeValues("Hello","Good", "Morning"));
