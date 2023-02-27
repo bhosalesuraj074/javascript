@@ -41,8 +41,9 @@ console.log(function(str)
     }
     return `'${str}' contains less than 10 characters `
 }("JavaScript-ES6"));
-
 console.log("========================================================");
+
+
 console.log(function(str1)
 {
     var str2="javaScript is best language for web development";
@@ -53,4 +54,9 @@ console.log(function(str1)
     }
     return `Given string does not start with '${str1}'`;
 }("java"));
+
+
+
+
+
 console.log("--------------------------------------------------------");
