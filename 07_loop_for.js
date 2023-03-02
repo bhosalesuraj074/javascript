@@ -48,3 +48,9 @@ for(let i=10;i>0;i--)
     console.log(i*10);
 }
 console.log("-----------------------------------") 
+
+var s="Suraj";
+
+for (const key in s) {
+    console.log(key)
+}
