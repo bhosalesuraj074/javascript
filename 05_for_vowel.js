@@ -1,12 +1,8 @@
 var countVowel= function (str)
 {
-  var count=0, vowel=0;
+  var vowel=0;
   var v= str.toLowerCase();
   for (let index = 0; index < str.length-1; index++) {
-     if(str[index] == ' ')
-     {
-        ++count;
-     }
     if(v[index] == 'a' || v[index] == 'e' || v[index] == 'o'
         ||v[index] == 'u' ||v[index] == 'i')
         {
