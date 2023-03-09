@@ -26,7 +26,7 @@ professor ={
  console.log("Object Properties"); 
  console.log(professor);
  print();
- console.log("Degree of the professor"+ professor.degrees);
+ console.log("Degree of the professor", professor.degrees);
  print();
  console.log(" Certificate of  Professor: ", professor.certificates);
  print();
