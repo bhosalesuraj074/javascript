@@ -18,28 +18,11 @@ class Vehicle
         this.seating_capacity=setting_capacity
      }
 }
-// function carInfo(carDetails) 
-// {
-    
-//     console.log(`Details of the '${carDetails.carCompany}' car: `);
-//     console.log(`Model : '${carDetails.carModel}', Prize : '${carDetails.prize}', Color : '${carDetails.color}' , & Seating Capacity: ${carDetails.seating_capacity}`);
-   
-// }
-
 let harrier = new Vehicle("TATA" ,"Harrier","20 lacks","black",5)
-
 let fortuner = new Vehicle("Toyota","Fortuner legender","50 Lacks","white",7);
-// carInfo(fortuner);
-
 let endeavors = new Vehicle("Ford","endeavors","35 Lacks","Black",7);
-// carInfo(endeavors);
-
 let Mercedes = new Vehicle("Mercedes","Benz G-Class","1.7 cr","Red",6);
-// carInfo(endeavors);
-
 let Mahindra  =new Vehicle("Mahindra","Thar","11 lacks","Black",4);
-// carInfo(Mahindra);
-
 let carArray = [harrier,fortuner,endeavors,Mercedes,Mahindra];
 console.log("Task 1: car and there attributes")
 for (const carDetails of carArray)
