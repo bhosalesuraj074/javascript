@@ -11,3 +11,16 @@ while(a<20)
  arr.push(temp);
 }
 console.log(""+arr);
+
+
+
+
+console.log("----------------------------------------------------------------------------------------");
+let array =[];
+array.push(0);
+array.push(1);
+for (let index = 0; index < 10; index++) {
+    
+    array.push(array[array.length-2] + array[array.length-1])
+}
+console.log(array);
