@@ -22,44 +22,43 @@ const emp =[emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monika, emp_vinayak,
 console.error("---------------------------------------------------------------------------------------------");
 console.error("finding the employees who is working in the TCS");
 for (const  emps of emp) {     
- for (const value of Object.values(emps)) {
-     if(value === "TCS")
+ 
+     if(emps.emp_company === "TCS")
      {
          console.log(`Emp Name: ${emps.emp_name} & Company: ${emps.emp_company}`);
      }
-    }
 }
 console.error("---------------------------------------------------------------------------------------------");
 console.error("Finding the finance department employee");
 for (const  emps of emp) {     
-    for (const value of Object.values(emps)) {
-        if(value === "Finance")
+  
+        if(emps.emp_dept === "Finance")
         {
             console.log(`Emp Name: ${emps.emp_name} & Company: ${emps.emp_company}`);
         }
-       }
+       
    }
 console.error("---------------------------------------------------------------------------------------------");
 console.error("Task: Finding the employee whose name start with 'R' ");
 for (const  emps of emp) {     
-    for (const value of emps.emp_name) {
-        if(value.startsWith("R"))
+
+        if(emps.emp_name.startsWith("R"))
         {
             console.log(`Emp Name: ${emps.emp_name} & Company: ${emps.emp_company}`);
         }
-       }
+       
    }
 
-   console.error("---------------------------------------------------------------------------------------------");
-   console.error("Task: Finding the employee whose salary > 75000");
+console.error("---------------------------------------------------------------------------------------------");
+console.error("Task: Finding the employee whose salary > 75000");
    for (const  emps of emp) {     
         if(emps.emp_salary > 75000)
         {
             console.log(`Emp Name: ${emps.emp_name}, Company: ${emps.emp_company} & salary ${emps.emp_salary} `);
         }
    }
-   console.error("---------------------------------------------------------------------------------------------");
-   console.error("Task : Finding the employee whose salary is > 50000 & working in IT department");
+console.error("---------------------------------------------------------------------------------------------");
+console.error("Task : Finding the employee whose salary is > 50000 & working in IT department");
    for (const  emps of emp) {     
         if(emps.emp_salary >= 50000 && emps.emp_dept === "IT")
         {
@@ -67,12 +66,12 @@ for (const  emps of emp) {
             console.log(emps);
         }
     }
-    console.error("---------------------------------------------------------------------------------------------");
-    console.error("Task: finding the employee working in the 'Infy' company");
+console.error("---------------------------------------------------------------------------------------------");
+console.error("Task: finding the employee working in the 'Infy' company");
     for (const  emps of emp) {     
         if(emps.emp_company === "Infy")
         {
             console.log(emps);
         }
     }
-    console.error("---------------------------------------------------------------------------------------------");
+console.error("---------------------------------------------------------------------------------------------");
