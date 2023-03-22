@@ -11,9 +11,7 @@ function primeNumbers(a,num){
               break;
             }   
         }
-    if(flag){
-
-    }
+    if(flag){    }
     else{
             if(counter <= num){ 
             ++counter; 
