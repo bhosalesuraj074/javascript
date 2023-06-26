@@ -10,3 +10,5 @@ isWorking=true;
 console.log("isWorking datatype After initialization: "+ typeof isWorking);
 var totalCount=107;
 console.log("totalCount datatype: "+typeof totalCount);
+
+
