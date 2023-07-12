@@ -7,7 +7,7 @@ function eligibilityCheck(graduation, hsc,ssc,name)
   }
   else
   {
-   return `Dear '${name}' Unfortunately you not not meet TCS eligibility criteria.`;
+   return `Dear '${name}' Unfortunately you not meet TCS eligibility criteria.`;
   }
 }
 console.log(eligibilityCheck(80,86,90,"Suraj"));
