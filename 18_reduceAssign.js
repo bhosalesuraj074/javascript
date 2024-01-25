@@ -55,6 +55,8 @@ console.log(dept_avg/ arrayEmps.length);
 
 console.log('-------------------Avrage of the IT deparatment ------------------');
 let IT_avg  = arrayEmps.filter(emp => emp.emp_dept == 'IT');
-let avg = IT_avg.reduce(startemp =>{
-    return
-})
+let avg = IT_avg.reduce((startemp, emp) =>{
+    return startemp += emp.emp_salary; 
+}, 0);
+console.log(avg);
+console.log(avg/ IT_avg.length);
